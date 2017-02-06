@@ -1,0 +1,167 @@
+//variables
+$backgroundImageHeader: url(../img/backimage.jpeg);
+$backgroundColor: #E8E8E8;
+$backgroundColor: #618D49;
+$backgroundColor: #314082;
+$backgroundColor: black;
+$backgroundColor: white;
+$borderColor: lightgrey;
+$color: white;
+$color: lightgrey;
+$color: dimgrey;
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+//Partials
+@import 'pricing';
+@import 'textnfoot';
+@import 'navbar';
+
+.row {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#topImage {
+    background: url(https://unsplash.it/1000?image=19);
+    background-size: cover;
+    background-position: 0% 15%;
+    padding: 100px;
+}
+
+.title {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 48px;
+    color: #ffffff;
+    text-shadow: 2px 4px 10px black
+}
+
+.under {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.row {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.personal {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.five {
+    font-size: 50px;
+}
+
+.translucent {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: lightgrey;
+}
+
+.greybox {
+    border: .5px solid;
+    border-color: lightgrey;
+    background-color: #E8E8E8;
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+#box1 {
+    padding: 10px;
+    background-color: #618D49;
+    color: white;
+    text-align: center;
+}
+
+#box2 {
+    padding: 10px;
+    background-color: #314082;
+    color: white;
+    text-align: center;
+}
+
+#box3 {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.paralign {
+    display: flex;
+}
+
+.info {
+    flex: 1;
+    padding: 10px;
+    margin: 15px 15px 0px 15px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.header {
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.container2 {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.row2 {
+    display: inline;
+    margin-bottom: 40px;
+}
+
+.button {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: white;
+    border-color: lightgrey;
+    padding: 5px;
+}
+
+
+.field.field-centered {
+    text-align: center;
+    border: .5px solid;
+    border-color: lightgrey;
+    background-color: white;
+    padding: 20px;
+}
+
+.under2 {
+    color: white;
+    font-size: 11px;
+}
+
+.bottomcolor {
+    color: lightgrey;
+    font-size: 10px;
+}
