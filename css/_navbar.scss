@@ -1,11 +1,19 @@
 .navbar {
-    list-style: none;
-    text-align: left;
-
-    li {
-      display: inline;
-      padding: 10px 25px;
-      font-weight: lighter;
-      font-size: small;
+  list-style: none;
+  text-align: left;
+  li {
+    display: inline;
+    padding: 10px 25px;
+    font-weight: lighter;
+    font-size: small;
+    text-decoration: none;
+    color: dimgrey;
+    &:last-child {
+      text-decoration: none;
+      $color: dimgrey;
     }
+  }
+}
+
+
 }

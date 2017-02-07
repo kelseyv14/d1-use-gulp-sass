@@ -1,0 +1,22 @@
+.container2 {
+    padding: 10px;
+    margin-right: 10px;
+    $backgroundColor: black;
+    $color: white;
+    text-align: center;
+}
+
+.row2 {
+    display: inline;
+    margin-bottom: 40px;
+    a {
+        $color: white;
+        font-size: 11px;
+        &:last-child {
+            $color: lightgrey;
+            font-size: 10px;
+        }
+    }
+}
+
+

@@ -1,0 +1,37 @@
+.box {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    .personal {
+        font-size: 10px;
+        letter-spacing: 1px;
+        .five {
+            font-size: 50px;
+            .translucent {
+                font-size: 10px;
+                letter-spacing: 1px;
+                $color: lightgrey;
+            }
+        }
+    }
+}
+
+.greybox {
+    border: .5px solid;
+    $borderColor: lightgrey;
+    $backgroundColor: #E8E8E8;
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    button {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    $backgroundColor: white;
+   $borderColor: lightgrey;
+    padding: 5px;
+   
+}
+}
+
